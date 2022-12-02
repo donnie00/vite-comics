@@ -6,8 +6,12 @@ export default {
 </script>
 
 <template>
-	<h1>Hello word</h1>
 	<TheHeader></TheHeader>
+	<main class="bg-dark py-5">
+		<div class="container">
+			<h3 class="text-light">Main content here</h3>
+		</div>
+	</main>
 </template>
 
 <style></style>
