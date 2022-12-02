@@ -30,13 +30,15 @@ export default {
 </script>
 
 <template>
-	<div class="bg-primary py-5">
+	<div class="bg-primary">
 		<div class="container">
 			<ul class="nav align-items-center justify-content-center">
 				<li
 					class="nav-item align-items-center"
 					v-for="section in sectionsLinks">
-					<a class="nav-link link-light" href="">
+					<a
+						class="nav-link d-flex align-items-center link-light py-4"
+						href="">
 						<img class="img-fluid" :src="`/img/${section.icon}`" alt="" />
 						<span class="text-uppercase">{{ section.name }}</span>
 					</a>
@@ -45,3 +47,16 @@ export default {
 		</div>
 	</div>
 </template>
+
+<style scoped lang="scss">
+.nav-link {
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	img {
+		height: 70px;
+		padding: 10px;
+	}
+}
+</style>
