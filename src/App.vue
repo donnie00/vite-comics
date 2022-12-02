@@ -2,8 +2,9 @@
 import TheHeader from './components/TheHeader.vue';
 import buyComicsBanner from './components/buyComicsBanner.vue';
 import TheFooter from './components/TheFooter.vue';
+import contactsBanner from './components/contactsBanner.vue';
 export default {
-	components: {TheHeader, buyComicsBanner, TheFooter},
+	components: {TheHeader, buyComicsBanner, TheFooter, contactsBanner},
 };
 </script>
 
@@ -16,6 +17,7 @@ export default {
 	</main>
 	<buyComicsBanner></buyComicsBanner>
 	<TheFooter></TheFooter>
+	<contactsBanner></contactsBanner>
 </template>
 
 <style></style>

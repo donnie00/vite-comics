@@ -13,7 +13,7 @@ export default {
 				<div class="col-7 py-5">
 					<div class="d-flex">
 						<div class="list-wrapper">
-							<h4 class="text-uppercase">Dc comics</h4>
+							<h5 class="text-uppercase">Dc comics</h5>
 							<ul class="list-unstyled">
 								<li class="list-item">
 									<a href=""> An item </a>
@@ -32,7 +32,7 @@ export default {
 								</li>
 							</ul>
 
-							<h4 class="text-uppercase">Shop</h4>
+							<h5 class="text-uppercase">Shop</h5>
 							<ul class="list-unstyled">
 								<li class="list-item">
 									<a href=""> An item </a>
@@ -44,7 +44,7 @@ export default {
 						</div>
 
 						<div class="list-wrapper">
-							<h4 class="text-uppercase">DC</h4>
+							<h5 class="text-uppercase">DC</h5>
 							<ul class="list-unstyled">
 								<li class="list-item">
 									<a href=""> An item </a>
@@ -61,11 +61,23 @@ export default {
 								<li class="list-item">
 									<a href=""> And a fifth one </a>
 								</li>
+								<li class="list-item">
+									<a href=""> And a fifth one </a>
+								</li>
+								<li class="list-item">
+									<a href=""> And a fifth one </a>
+								</li>
+								<li class="list-item">
+									<a href=""> And a fifth one </a>
+								</li>
+								<li class="list-item">
+									<a href=""> And a fifth one </a>
+								</li>
 							</ul>
 						</div>
 
 						<div class="list-wrapper">
-							<h4 class="text-uppercase">Sites</h4>
+							<h5 class="text-uppercase">Sites</h5>
 							<ul class="list-unstyled">
 								<li class="list-item">
 									<a href=""> An item </a>
@@ -105,7 +117,7 @@ export default {
 .list-wrapper {
 	padding-right: 1rem;
 
-	h4 {
+	h5 {
 		color: white;
 	}
 
