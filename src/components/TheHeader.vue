@@ -22,12 +22,11 @@ export default {
 <template>
 	<div class="container">
 		<header class="navbar">
-			<img class="navbar-brand" src="/img/dc-logo.png" alt="" />
+			<img class="navbar-brand img-fluid" src="/img/dc-logo.png" alt="" />
 			<ul class="nav">
 				<li v-for="link in navLinks" class="nav-item">
-					<a class="nav-link link-dark" href="#">
-						<!-- Da cambiare con sass css in uppercase -->
-						{{ link.toUpperCase() }}
+					<a class="nav-link link-dark text-uppercase" href="#">
+						{{ link }}
 					</a>
 				</li>
 			</ul>
