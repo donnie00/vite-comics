@@ -22,10 +22,10 @@ export default {
 <template>
 	<div class="container">
 		<header class="d-flex justify-content-between">
-			<a href="">
+			<a href="#">
 				<img class="nav-logo img-fluid" src="/img/dc-logo.png" alt="" />
 			</a>
-			<ul class="nav">
+			<ul class="nav justify-content-center">
 				<li v-for="link in navLinks" class="nav-item d-flex">
 					<a
 						class="nav-link text-uppercase d-flex align-items-center"
@@ -41,19 +41,18 @@ export default {
 <style scoped lang="scss">
 @use '../styles/partials/variables' as *;
 .nav-logo {
-	// height: 100px;
-	padding: 1rem 0;
+	padding: 1rem 10px;
 }
 
 .nav-link {
 	font-size: 0.8rem;
 	color: black;
-	border-bottom: 3px solid transparent;
+	border-bottom: 5px solid transparent;
 
 	&:hover {
 		color: $main-color;
-		border-bottom: 3px solid $main-color;
-		background-color: rgba(0, 0, 255, 0.1);
+		border-bottom: 5px solid $main-color;
+		// background-color: rgba(0, 0, 255, 0.1);
 	}
 }
 </style>

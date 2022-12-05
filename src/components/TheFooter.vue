@@ -134,7 +134,7 @@ export default {
 		<div class="container">
 			<div class="row">
 				<div class="col-7 py-5">
-					<div class="d-flex">
+					<div class="d-flex align-items-baseline">
 						<div
 							v-for="(linkList, i) in footerLinks"
 							class="list-wrapper">
@@ -147,7 +147,7 @@ export default {
 						</div>
 					</div>
 				</div>
-				<div class="col-5 bg-logo"></div>
+				<div class="col bg-logo"></div>
 			</div>
 		</div>
 	</div>

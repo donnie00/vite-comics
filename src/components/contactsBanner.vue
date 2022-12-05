@@ -3,11 +3,26 @@ export default {
 	data() {
 		return {
 			socialLinks: [
-				'facebook',
-				'twitter',
-				'youtube',
-				'pinterest',
-				'periscope',
+				{
+					name: 'facebook',
+					href: '/',
+				},
+				{
+					name: 'twitter',
+					href: '/',
+				},
+				{
+					name: 'youtube',
+					href: '/',
+				},
+				{
+					name: 'pinterest',
+					href: '/',
+				},
+				{
+					name: 'periscope',
+					href: '/',
+				},
 			],
 		};
 	},
@@ -29,10 +44,10 @@ export default {
 					</h5>
 					<ul class="list-unstyled list-inline m-0">
 						<li v-for="social in socialLinks" class="list-inline-item">
-							<a href="#">
+							<a :href="social.href">
 								<img
 									class="px-1"
-									:src="`/img/footer-${social}.png`"
+									:src="`/img/footer-${social.name}.png`"
 									alt="" />
 							</a>
 						</li>
