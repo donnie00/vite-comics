@@ -39,6 +39,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use '../styles/partials/variables' as *;
 .nav-logo {
 	// height: 100px;
 	padding: 1rem 0;
@@ -50,8 +51,8 @@ export default {
 	border-bottom: 3px solid transparent;
 
 	&:hover {
-		color: blue;
-		border-bottom: 3px solid blue;
+		color: $main-color;
+		border-bottom: 3px solid $main-color;
 		background-color: rgba(0, 0, 255, 0.1);
 	}
 }

@@ -3,6 +3,7 @@ import TheHeader from './components/TheHeader.vue';
 import buyComicsBanner from './components/buyComicsBanner.vue';
 import TheFooter from './components/TheFooter.vue';
 import contactsBanner from './components/contactsBanner.vue';
+
 export default {
 	components: {TheHeader, buyComicsBanner, TheFooter, contactsBanner},
 };
@@ -20,4 +21,6 @@ export default {
 	<contactsBanner></contactsBanner>
 </template>
 
-<style></style>
+<style lang="scss">
+@use './styles/general.scss' as *;
+</style>
